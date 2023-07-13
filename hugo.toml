@@ -38,7 +38,7 @@ theme = "hello-friend-ng"
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "/abouit"
+    url        = "/about"
 
 [permalinks]
   posts = "/posts/:year/:month/:title/"
