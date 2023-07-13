@@ -5,13 +5,43 @@ theme = "hello-friend-ng"
 
 [params]
   author = "Agostinho Sanches"
-  description = "A little about everything."
-  homeSubtitle = "A little about everything."
+  description = ""
+  homeSubtitle = "I seek, therefore I am."
+
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "/home/"
+    logoHomeLink = "/"
 
   [[params.social]]
-    icon = "github"
-    name = "GitHub"
+    name = "email"
+    url = "mailto:agostinho.sanches@protonmail.ch"
+
+  [[params.social]]
+    name = "github"
     url = "https://github.com/agsanar"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/agostinho-sanches"
+
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/abouit"
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
 
 [taxonomies]
   tag      = "tags"
