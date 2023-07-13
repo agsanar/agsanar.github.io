@@ -1,32 +1,18 @@
-baseURL = 'https://agsanar.github.io/blog'
-languageCode = 'en-us'
-title = 'Placeholder'
-theme = 'hello-friend-ng'
+baseURL = "https://agsanar.github.io/"
+languageCode = "en-us"
+title = "Agsanar's Tome"
+theme = "hello-friend-ng"
 
 [params]
-  dateform        = "2 Jan, 2006"
-  dateformShort   = "2 Jan"
-  dateformNum     = "2006-02-01"
-  dateformNumTime = "2006-02-01 15:04"
+  author = "Agostinho Sanches"
+  description = "A little about everything."
+  homeSubtitle = "A little about everything."
 
-  # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
-
-  # Enable sharing buttons, if you like
-  # enableSharingButtons = true
-  
-  # Show a global language switcher in the navigation bar
-  # enableGlobalLanguageMenu = true
-
-  # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
-  images = [""]
   [[params.social]]
     icon = "github"
     name = "GitHub"
-    url = "https://github.com/agsanar/"
+    url = "https://github.com/agsanar"
 
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
