@@ -1,0 +1,32 @@
+baseURL = 'https://agsanar.github.io/blog'
+languageCode = 'en-us'
+title = 'Placeholder'
+theme = 'hello-friend-ng'
+
+[params]
+  dateform        = "2 Jan, 2006"
+  dateformShort   = "2 Jan"
+  dateformNum     = "2006-02-01"
+  dateformNumTime = "2006-02-01 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "A simple and beautiful blog"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  # enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  # enableGlobalLanguageMenu = true
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/agsanar/"
+
